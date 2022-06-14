@@ -8,3 +8,10 @@ max-width:325px;
     width:100%;
   }
 }
+
+@media screen and (max-width:530px){
+  .prize__image{
+   margin: auto;
+  }
+}
+

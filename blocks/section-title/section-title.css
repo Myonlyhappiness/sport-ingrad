@@ -14,3 +14,11 @@
   }
 }
 
+@media screen and (max-width:530px){
+  .section-title{
+     text-align: center;
+  }
+}
+
+
+
