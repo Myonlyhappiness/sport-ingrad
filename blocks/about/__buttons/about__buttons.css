@@ -3,7 +3,16 @@
   justify-content: space-between;
   max-width:580px;
   margin:80px auto;
+  padding: 0;
 }
+
+@media screen and (max-width:800px){
+  .about__buttons{
+  
+    margin:52px 10px 52px -10px;
+  }
+}
+
 
 
 @media screen and (max-width:665px){
