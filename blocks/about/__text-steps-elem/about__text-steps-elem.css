@@ -1,0 +1,37 @@
+.about__text-steps-elem{
+font-family: 'Inter', Arial, sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+margin: 0;
+align-self: center;
+}
+
+.about__text-steps-elem:last-child{
+  margin: 0;
+  }
+
+
+@media screen and (max-width:900px){
+  .about__text-steps-elem{
+     font-size: 14px;
+      line-height: 1.4;
+  }
+}
+
+@media screen and (max-width:530px){
+  .about__text-steps-elem:last-child{
+      max-width: 286px;
+      align-self: center;
+  }
+  
+  .about__text-steps-elem{
+    max-width: 325px;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+  
+  .about__text-steps-elem:nth-of-type(2){
+    max-width: 233px;
+  }
+}

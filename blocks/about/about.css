@@ -1,0 +1,24 @@
+.about{
+margin:auto;
+padding:0 30px 0 112px;
+max-width: 1440px;  
+}
+
+@media screen and (max-width:1280px){
+  .about{
+    padding:0 30px 0 50px;
+  }
+}
+
+@media screen and (max-width:665px){
+  .about{
+    padding:0 30px 0 20px;
+  }
+}
+
+@media screen and (max-width:530px){
+  .about{
+    padding:0 15px 0 15px;
+  }
+}
+

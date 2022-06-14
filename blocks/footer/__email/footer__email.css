@@ -1,0 +1,27 @@
+.footer__email{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-left: auto;
+  text-decoration: none;
+  color: #000;
+  border-bottom: 1px solid #fbc71b;
+  align-self: flex-start;
+  padding-top: 10px;
+  transition: font-weight linear 0.3s;
+}
+
+.footer__email:hover{
+  border:none;
+}
+
+@media screen and (max-width:900px){
+  .footer__email{
+      margin: 0; 
+      max-width: 128px;
+      padding: 0;
+      align-self: center;
+  }
+}

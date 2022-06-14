@@ -1,0 +1,29 @@
+.about__text-elem{
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+  padding-left: 5px;
+}
+
+.about__text-elem-span{
+  padding-left:10px;
+}
+
+
+@media screen and (max-width:900px){
+  .about__text-elem{
+   border:0;
+  }
+}
+
+@media screen and (max-width:665px){
+  .about__text-elem{
+   margin-bottom: 25px;
+  }
+}
+
+@media screen and (max-width:530px){
+  .about__text-elem-span{
+    padding-left:0;
+  }
+}
+
+

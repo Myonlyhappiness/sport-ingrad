@@ -1,0 +1,10 @@
+.header__caption{
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 0 auto ;
+  max-width: 183px;
+  text-transform: uppercase;
+}

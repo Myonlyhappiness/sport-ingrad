@@ -1,0 +1,26 @@
+.header__icon-button{
+max-width:112px;
+margin: 0 auto 105px;
+display: block;
+animation: down 1.7s infinite;
+}
+
+@media screen and (max-width:530px){
+  .header__icon-button{
+    margin: 0 auto 85px;
+}
+}
+
+
+@keyframes down{
+ 0% {
+  transform: translate(0)
+ }
+ 20% {
+  transform: translateY(7px)
+ }
+ 40% {
+  transform: translate(0)
+ }
+}
+

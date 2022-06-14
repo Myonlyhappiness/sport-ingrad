@@ -1,0 +1,26 @@
+.header{
+max-height: 1024px;
+background: url(../../images/header/header__image-background_3.png) no-repeat;
+background-size: cover;
+background-position: 10%;
+padding: 40px 0 0;
+overflow: hidden;
+}
+
+
+@media screen and (max-width:900px){
+  .header{
+     background-position: 5%;
+  }
+}
+
+@media screen and (max-width:530px){
+  .header{
+    background-position: 5%;
+    padding: 32px 0 0;
+  }
+}
+
+
+
+

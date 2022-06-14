@@ -1,0 +1,26 @@
+.header__title{
+  font-family: 'DrukTextWideCy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 1;
+  margin: 24px auto;
+  max-width: 819px;
+  text-align: center;
+  letter-spacing: -0.05em;
+}
+
+
+@media screen and (max-width:900px){
+  .header__title{
+     font-size: 32px;
+     max-width:412px;
+  }
+}
+
+@media screen and (max-width:530px){
+  .header__title{
+     font-size: 32px;
+     max-width: 255px;
+  }
+}

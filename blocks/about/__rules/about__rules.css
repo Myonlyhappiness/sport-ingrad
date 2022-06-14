@@ -1,0 +1,28 @@
+.about__rules{
+font-family: 'Inter', Arial, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.6;
+align-self: center;
+display: flex;
+align-content: center;
+}
+
+@media screen and (max-width:665px){
+  .about__rules{
+    max-width: 300px;
+    display: block;
+    align-self: center;
+  }
+}
+
+.about__rules > a {
+color:#ABAEB0;
+transition: all linear 0.3s;
+}
+
+.about__rules > a:hover{
+text-decoration: none;
+color:#000;
+}

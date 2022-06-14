@@ -1,0 +1,40 @@
+.about__image-2{
+  position: absolute;
+  bottom:-20px;
+  right:200px;
+  z-index: -2;
+}
+
+@media screen and (max-width:1280px){
+  .about__image-2{
+    right:130px;
+  }
+}
+
+@media screen and (max-width:1135px){
+  .about__image-2{
+     right:-25px;
+  }
+}
+
+@media screen and (max-width:985px){
+  .about__image-2{
+     top:0;
+     right:-200px;
+  }
+}
+
+@media screen and (max-width:800px){
+  .about__image-2{
+     top:0;
+     right:-230px;
+  }
+}
+
+@media screen and (max-width:530px){
+  .about__image-2{
+     width:280px;
+     top:30px;
+     right:-145px;
+  }
+}

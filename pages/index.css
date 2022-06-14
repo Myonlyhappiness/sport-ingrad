@@ -1,0 +1,55 @@
+@import url(../vendor/normalize.css);
+@import url(../fonts/Inter/inter.css);
+@import url(../fonts/DrukTextWideCy/DrukTextWideCy.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/header/__image/header__image.css);
+@import url(../blocks/header/__caption/header__caption.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__logo/header__logo-img.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__subtitle/header__subtitle.css);
+@import url(../blocks/header/__icon-button/header__icon-button.css);
+@import url(../blocks/line/line.css);
+@import url(../blocks/main/main.css);
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__image-1/about__image-1.css);
+@import url(../blocks/about/__image-2/about__image-2.css);
+@import url(../blocks/about/__caption/about__caption.css);
+@import url(../blocks/about/__text/about__text.css);
+@import url(../blocks/about/__info-column/about__info-column.css);
+@import url(../blocks/about/__text-elem/about__text-elem.css);
+@import url(../blocks/about/__img-column/about__img-column.css);
+@import url(../blocks/about/__three-steps-title/about__three-steps-title.css);
+@import url(../blocks/about/__text-steps/about__text-steps.css);
+@import url(../blocks/about/__text-steps-column/about__text-steps-column.css);
+@import url(../blocks/about/__text-steps-elem/about__text-steps-elem.css);
+@import url(../blocks/about/__buttons/about__buttons.css);
+@import url(../blocks/about/__button/about__button.css);
+@import url(../blocks/about/__rules/about__rules.css);
+@import url(../blocks/prizes/prizes.css);
+@import url(../blocks/prize/prize.css);
+@import url(../blocks/prize/__info-column/prize__info-column.css);
+@import url(../blocks/prize/__title/prize__title.css);
+@import url(../blocks/prize/__description/prize__description.css);
+@import url(../blocks/prize/__description-link/prize__description-link.css);
+@import url(../blocks/prize/__image/prize__image.css);
+@import url(../blocks/form/form.css);
+@import url(../blocks/section-title/__form/section-title__form.css);
+@import url(../blocks/form/__area/form__area.css);
+@import url(../blocks/form/__label/form__label.css);
+@import url(../blocks/form/__item/form__item.css);
+@import url(../blocks/form/__item-checkbox/form__item-checkbox.css);
+@import url(../blocks/form/__item-checkbox-text/form__item-checkbox-text.css);
+@import url(../blocks/form/__button/form__button.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__disclaimer/footer__disclaimer.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__email/footer__email.css);
+
+
+ body, header, div, main, section, footer, h1, h2, h3, h4, p, img {
+  border: 0px solid red;
+}
+/* Техническая рамка для разметки блоков и элементов страницы */

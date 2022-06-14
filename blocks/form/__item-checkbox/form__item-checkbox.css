@@ -1,0 +1,26 @@
+.form__item-checkbox{
+position: absolute;
+width: 1px;
+height: 1px;
+overflow: hidden;
+clip: rect(0 0 0 0);
+}
+
+.form__item-new-checkbox{
+display: block;
+width: 24px;
+height: 24px;
+border: 1px solid #D5D5D5;
+border-radius: 5px;
+}
+
+
+.form__item-checkbox:checked + .form__item-new-checkbox{
+  background: url(../../../images/footer/tick.png) no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.form__item-checkbox:focus + .form__item-new-checkbox{
+  border: 1px solid #FFCF33;;
+}

@@ -1,0 +1,22 @@
+.section-title__form{
+ margin:0 auto 56px;
+ text-align: center;
+}
+
+@media screen and (max-width:1250px){
+ .section-title__form{
+  max-width: 582px
+ }
+}
+
+@media screen and (max-width:780px){
+  .section-title__form{
+   max-width: 325px;
+  }
+}
+
+@media screen and (max-width:360px){
+ .section-title__form{
+  margin:0 auto 24px
+ }
+}

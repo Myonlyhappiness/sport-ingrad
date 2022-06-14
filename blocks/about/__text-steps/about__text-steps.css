@@ -1,0 +1,13 @@
+.about__text-steps{
+  display: grid;
+  grid-template-columns: 50px 450px;
+  max-width: 600px;
+  grid-gap: 10px;
+}
+
+@media screen and (max-width:530px){
+  .about__text-steps{
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}

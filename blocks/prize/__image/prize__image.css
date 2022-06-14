@@ -1,0 +1,10 @@
+.prize__image{
+max-width:325px;
+}
+
+@media screen and (max-width:900px){
+  .prize__image{
+    order:-1;
+    width:100%;
+  }
+}

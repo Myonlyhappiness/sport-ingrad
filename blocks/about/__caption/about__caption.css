@@ -1,0 +1,22 @@
+.about__caption{
+display: inline-block;
+font-family: 'Inter', Arial, sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: .6;
+padding:12px;
+border: 1px solid #EFEFEF;
+border-radius: 40px;
+text-transform: uppercase;
+margin: 0 0 32px;
+}
+
+
+@media screen and (max-width:665px){
+  .about__caption{
+    font-size: 10px;
+    line-height: .8;
+    margin: 0 0 20px;
+  }
+}

@@ -1,0 +1,39 @@
+.about__text{
+font-family: 'Inter', Arial, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 3.2;
+list-style-image: url(../../../images/about/ul_marker.svg);
+list-style-position: inside;
+padding-left: 0px;
+margin:24px 0;
+max-width: 650px;
+}
+
+@media screen and (max-width:900px){
+  .about__text{
+     font-size: 14px;
+  }
+}
+
+@media screen and (max-width:665px){
+  .about__text{
+    max-width: 530px;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+}
+
+@media screen and (max-width:530px){
+  .about__text{
+    max-width: 230px;
+    list-style-position: outside;
+    list-style-position: outside;
+    padding-left: 20px;
+  }
+  }
+}
+
+
+

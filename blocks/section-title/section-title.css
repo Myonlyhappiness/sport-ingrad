@@ -1,0 +1,16 @@
+.section-title{
+  font-family: 'DrukTextWideCy';
+  font-style: normal;
+  font-size: 64px;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  max-width: 1165px;
+  margin: 0;
+}
+
+@media screen and (max-width:900px){
+  .section-title{
+     font-size: 32px;
+  }
+}
+

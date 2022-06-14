@@ -1,0 +1,42 @@
+.form__item{
+  margin:0 0 16px;
+  display: block;
+  width: 100%;
+  height: 44px;
+  transform: skew(0, 3deg);
+  border-radius: 14px;
+  border: 1px solid #F1F3F3;
+  padding-left:16px;
+  box-sizing: border-box;
+}
+
+.form__item::placeholder
+{
+  font-size:16px;
+  font-family:'Inter';
+  line-height:1.5;
+  color:#ABAEB0;
+}
+
+.form__item[type="email"]{
+  margin:0 auto 31px;
+}
+
+.form__item:focus{
+  border:1px solid #fbc71b;
+  border-radius: 14px;
+  outline:none;
+}
+
+.form__item-wrapper{
+  display:flex;
+  transform: skew(0, 3deg);
+  margin-bottom: 10px;
+  max-width: 395px;
+}
+
+@media screen and (max-width:400px){
+  .form__item-wrapper{
+   margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,22 @@
+.about__button{
+background-color: #FFCF33;;
+border-radius: 30px;
+color: black;
+padding: 20px 37px;
+text-decoration: none;
+cursor: pointer;
+font-family: 'Inter', Arial, sans-serif;
+font-weight: 600;
+font-size: 16px;
+line-height: 1.6;
+transition: all linear 0.3s;
+}
+
+@media screen and (max-width:665px){
+  .about__button{
+    margin-bottom: 20px;
+    padding: 15px 40px;
+    align-self: center;
+}
+
+  
