@@ -4,3 +4,8 @@
   text-decoration: none;
   font-weight: 600;
 }
+
+.prize__description-link:hover{
+  border-bottom: 0px solid #fbc71b;
+
+}
